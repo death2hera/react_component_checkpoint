@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import React, { Component } from "react";
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+import Profilepicture from "./Component/profile/Profilephoto";
+import Fullname from "./Component/profile/Fullname";
+import Address from "./Component/profile/Address";
+const App = () => {
+ return (
+    <>
+      <div className="App">
+        <h1>
+          Welcome!!
+        </h1>
+        <Profilepicture/>
+        <Fullname/>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          we are aware you want to sell your property at <Address/>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+        <p>
+          remember to contact us via our gmail, twitter and instagram accounts.
+        </p>
 
+      </div>
+    </>
+ );
+};
 export default App;

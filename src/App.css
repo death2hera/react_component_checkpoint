@@ -1,5 +1,11 @@
 .App {
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: grey;
+  color: white;
+  height: 100vh;
   text-align: center;
+  border-radius: 20px;
 }
 
 .App-logo {
